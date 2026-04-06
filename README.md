@@ -24,55 +24,73 @@ Execute the necessary commands/batch file for the desired output.
 ## Exercise 1: Basic Directory and File Operations
 Create a directory named "my-folder"
 ## COMMAND AND OUTPUT
+```
 mkdir my-folder
+```
 <img width="483" height="77" alt="image" src="https://github.com/user-attachments/assets/547b62f8-3563-4aa6-b9e4-bc9470b2e179" />
 
 Remove the directory "my-folder"
 
 ## COMMAND AND OUTPUT
+```
 rmdir my-folder
+```
 <img width="506" height="67" alt="image" src="https://github.com/user-attachments/assets/e47855eb-3062-4ca2-a558-9bffa7c64334" />
 
 Create the file Rose.txt
 
 ## COMMAND AND OUTPUT
+```
 type nul > Rose.txt
+```
 <img width="685" height="62" alt="image" src="https://github.com/user-attachments/assets/9562d940-4ee2-4795-8b3f-93970661b6fd" />
 
 Create the file hello.txt using echo and redirection
 
 ## COMMAND AND OUTPUT
+```
 echo Hello World > hello.txt
+```
 <img width="707" height="65" alt="image" src="https://github.com/user-attachments/assets/5bfefecc-4bd2-414f-b633-02d120281bcf" />
 
 Copy the file hello.txt into the file hello1.txt
 
 ## COMMAND AND OUTPUT
+```
 copy hello.txt hello1.txt
+```
 <img width="625" height="83" alt="image" src="https://github.com/user-attachments/assets/58c25064-ec5c-4fc9-8b7a-ca26d88da6f3" />
 
 Remove the file hello1.txt
 
 ## COMMAND AND OUTPUT
+```
 del hello1.txt
+```
 <img width="547" height="226" alt="image" src="https://github.com/user-attachments/assets/bc4d1c9f-e9e4-4714-847f-e166ea6049ca" />
 
 List out the file hello1.txt in the current directory
 
 ## COMMAND AND OUTPUT
+```
 dir hello1.txt
+```
 <img width="548" height="226" alt="image" src="https://github.com/user-attachments/assets/397ccd65-92f0-4649-9229-1423c3f568ff" />
 
 List out all the associated file extensions 
 
 ## COMMAND AND OUTPUT
+```
 assoc
+```
 <img width="779" height="805" alt="image" src="https://github.com/user-attachments/assets/87413d4d-217f-439d-95d2-de9fef378c00" />
 
 Compare the file hello.txt and rose.txt
 
 ## COMMAND AND OUTPUT
+```
 fc hello.txt Rose.txt
+```
 <img width="666" height="202" alt="image" src="https://github.com/user-attachments/assets/6c685692-f3e3-4218-9787-54f67dc5255c" />
 
 ## Exercise 2: Advanced Batch Scripting
